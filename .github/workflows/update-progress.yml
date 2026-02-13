@@ -1,0 +1,40 @@
+# =============================================================
+# 🔄 Auto Update Progress - Cập nhật bảng tiến độ trong README
+# =============================================================
+# Workflow này chạy mỗi khi push code lên main/master.
+# Nó scan các folder bài học và tự cập nhật bảng tracking
+# trong README.md rồi commit lại.
+
+name: Update Progress
+
+on:
+  push:
+    branches: [main, master]
+    paths-ignore:
+      - ".github/workflows/**"
+  workflow_dispatch: # Cho phép chạy tay từ tab Actions
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 📊 Update progress in README
+        run: python .github/scripts/update_progress.py
+
+      - name: 📝 Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (git add README.md && git commit -m "📊 auto-update progress" && git push)

@@ -1,0 +1,100 @@
+{
+    "topics": [
+        {
+            "id": 0,
+            "week": "Tuần 0",
+            "title": "Setup & Tooling (.NET SDK, IDE, Git)",
+            "folder": "00-setup-tooling"
+        },
+        {
+            "id": 1,
+            "week": "Tuần 1-2",
+            "title": "C# Fundamentals",
+            "folder": "01-csharp-fundamentals"
+        },
+        {
+            "id": 2,
+            "week": "Tuần 3-4",
+            "title": "OOP & Advanced C#",
+            "folder": "02-oop-advanced-csharp"
+        },
+        {
+            "id": 3,
+            "week": "Tuần 5-6",
+            "title": "SQL Server & Database Basics",
+            "folder": "03-sql-server-database"
+        },
+        {
+            "id": 4,
+            "week": "Tuần 7-8",
+            "title": "ASP.NET Core Fundamentals (MVC/Razor)",
+            "folder": "04-aspnet-core-fundamentals"
+        },
+        {
+            "id": 5,
+            "week": "Tuần 9-10",
+            "title": "REST API & Web API",
+            "folder": "05-rest-api-web-api"
+        },
+        {
+            "id": 6,
+            "week": "Tuần 11-12",
+            "title": "Entity Framework Core (ORM)",
+            "folder": "06-entity-framework-core"
+        },
+        {
+            "id": 7,
+            "week": "Tuần 13-14",
+            "title": "Dependency Injection & Middleware",
+            "folder": "07-di-middleware"
+        },
+        {
+            "id": 8,
+            "week": "Tuần 15-16",
+            "title": "Authentication & Authorization (JWT, Identity)",
+            "folder": "08-auth-jwt-identity"
+        },
+        {
+            "id": 9,
+            "week": "Tuần 17-18",
+            "title": "Testing (Unit Test, Integration Test)",
+            "folder": "09-testing"
+        },
+        {
+            "id": 10,
+            "week": "Tuần 19-20",
+            "title": "Caching, Logging & Performance",
+            "folder": "10-caching-logging-perf"
+        },
+        {
+            "id": 11,
+            "week": "Tuần 21",
+            "title": "Docker & Containerization",
+            "folder": "11-docker"
+        },
+        {
+            "id": 12,
+            "week": "Tuần 22",
+            "title": "CI/CD Basics (GitHub Actions)",
+            "folder": "12-cicd-github-actions"
+        },
+        {
+            "id": 13,
+            "week": "Tuần 23",
+            "title": "Microservices & Message Queue Intro",
+            "folder": "13-microservices-mq"
+        },
+        {
+            "id": 14,
+            "week": "Tuần 24",
+            "title": "Design Patterns & Clean Architecture",
+            "folder": "14-design-patterns-clean-arch"
+        },
+        {
+            "id": 15,
+            "week": "Tuần 25",
+            "title": "🏆 Capstone Project (E-Commerce)",
+            "folder": "15-capstone-ecommerce"
+        }
+    ]
+}
