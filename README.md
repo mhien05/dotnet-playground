@@ -32,11 +32,11 @@ dotnet-playground/
 <!-- PROGRESS:START - Tự động cập nhật bởi GitHub Actions, KHÔNG sửa tay phần này -->
 ## 📊 Tracking Tiến Độ Học Tập
 
-> **Cập nhật lần cuối:** `13/02/2026 22:29 (UTC+7)`
+> **Cập nhật lần cuối:** `13/02/2026 22:33 (UTC+7)`
 
 | #  | Tuần       | Chủ đề                                             | Trạng thái          | Ghi chú |
 |----|------------|------------------------------------------------------|---------------------|---------|
-| 0  | Tuần 0     | Setup & Tooling (.NET SDK, IDE, Git)                 | 🔄 Đang học          |         |
+| 0  | Tuần 0     | Setup & Tooling (.NET SDK, IDE, Git)                 | ✅ Hoàn thành        |         |
 | 1  | Tuần 1-2   | C# Fundamentals                                      | ⬜ Chưa bắt đầu      |         |
 | 2  | Tuần 3-4   | OOP & Advanced C#                                    | ⬜ Chưa bắt đầu      |         |
 | 3  | Tuần 5-6   | SQL Server & Database Basics                         | ⬜ Chưa bắt đầu      |         |
@@ -56,7 +56,7 @@ dotnet-playground/
 ### 📈 Tổng quan
 
 ```text
-Tiến độ: [░░░░░░░░░░░░░░░░░░░░] 0/16 chủ đề (0%)
+Tiến độ: [█░░░░░░░░░░░░░░░░░░░] 1/16 chủ đề (6%)
 ```
 
 ### Chú thích
