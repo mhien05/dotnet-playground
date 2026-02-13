@@ -35,10 +35,13 @@ def has_meaningful_content(folder_path: str) -> bool:
 
 
 def has_done_marker(folder_path: str) -> bool:
-    """Kiểm tra folder có file DONE hoặc DONE.md không."""
-    return os.path.exists(os.path.join(folder_path, "DONE")) or os.path.exists(
-        os.path.join(folder_path, "DONE.md")
-    )
+    """Kiểm tra folder có file DONE hoặc DONE.md không (không phân biệt hoa thường)."""
+    if not os.path.isdir(folder_path):
+        return False
+    for item in os.listdir(folder_path):
+        if item.upper() in {"DONE", "DONE.MD"}:
+            return True
+    return False
 
 
 def get_status(folder_path: str) -> tuple[str, str]:
