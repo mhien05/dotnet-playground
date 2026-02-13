@@ -16,7 +16,7 @@ import os
 import re
 from datetime import datetime, timezone, timedelta
 
-REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CONFIG_PATH = os.path.join(REPO_ROOT, ".github", "progress.json")
 README_PATH = os.path.join(REPO_ROOT, "README.md")
 
